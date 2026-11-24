@@ -1,64 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#07090c">
-  <title>Just a Question</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+Gujarati:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="experience">
-    <div class="grain"></div>
-    <div class="orb orb-a"></div><div class="orb orb-b"></div>
-
-    <section class="screen active" data-screen="0">
-      <div class="eyebrow">just one thing</div>
-      <h1>Okay.<br><span>You already know.</span></h1>
-      <button class="continue" data-next>Continue <span>→</span></button>
-    </section>
-
-    <section class="screen" data-screen="1">
-      <div class="eyebrow">so...</div>
-      <h2>I'm not going to<br>explain it again.</h2>
-      <p class="muted">You know what I mean.</p>
-      <button class="continue" data-next>Keep going <span>→</span></button>
-    </section>
-
-    <section class="screen" data-screen="2">
-      <div class="eyebrow">one last question</div>
-      <h2>So, here it is.</h2>
-      <div class="pause"></div>
-      <p class="gujarati">શું તું મારી ગર્લફ્રેન્ડ બનીશ?</p>
-      <h3 class="english-question">Will you be my girlfriend?</h3>
-      <p class="muted">No pressure. I just wanted to ask you properly.</p>
-      <div class="actions">
-        <button class="choice yes" id="yesBtn">Yes</button>
-        <button class="choice maybe" id="maybeBtn">I need time</button>
-      </div>
-    </section>
-
-    <section class="screen result" data-screen="3">
-      <div class="result-mark">✓</div>
-      <div class="eyebrow">okay, then</div>
-      <h2>Let's make this<br>something good.</h2>
-      <p class="muted">One step at a time.<br>I'm really glad you said yes.</p>
-      <div class="tiny-note">this is a nice beginning.</div>
-    </section>
-
-    <section class="screen result" data-screen="4">
-      <div class="result-mark soft">…</div>
-      <div class="eyebrow">that's completely okay</div>
-      <h2>Take your time.</h2>
-      <p class="muted">You don't owe me an instant answer.<br>I'll respect whatever you decide.</p>
-      <div class="tiny-note">no pressure. really.</div>
-    </section>
-
-    <div class="progress"><span id="progress"></span></div>
-  </main>
-  <script src="script.js"></script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#fff9f2"><title>Okay, Hear Me Out</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><main class="app"><div class="blob one"></div><div class="blob two"></div><div class="top"><span class="dot"></span><span>one tiny question</span></div>
+<section class="screen active"><div class="sticker">waittt</div><h1>Okay, hear me out.</h1><p>Before you judge this website...</p><button class="main-btn" data-next>fine, show me <span>→</span></button></section>
+<section class="screen"><div class="emoji-card">👀</div><p class="small-title">you already know what this is about</p><h2>So I'm skipping<br>the awkward speech.</h2><p>Because honestly, we've already had that conversation.</p><button class="text-btn" data-next>okay... <span>→</span></button></section>
+<section class="screen question"><div class="mini-label">alright. here goes.</div><h2>Will you be<br><em>my girlfriend?</em></h2><p class="guj">શું તું મારી ગર્લફ્રેન્ડ બનીશ?</p><div class="choices"><button class="yes" id="yesBtn">YES, okayy :)</button><button class="maybe" id="maybeBtn">lemme think 😭</button></div><p class="no-pressure">No pressure. Seriously.</p></section>
+<section class="screen answer"><div class="big-emoji">🫠</div><div class="pill">WAIT — REALLY?</div><h2>Okay then...</h2><p>I'm not gonna make this cringe.<br>Just... I'm really happy.</p><div class="sparkles">✦　✧　✦</div></section>
+<section class="screen answer"><div class="big-emoji">😭</div><div class="pill">FAIR ENOUGH</div><h2>Take your time.</h2><p>I'll survive the suspense.<br>Probably.</p><button class="text-btn" id="backBtn">okay, bye now <span>→</span></button></section>
+<div class="counter"><span id="bar"></span></div></main><script src="script.js"></script></body></html>
